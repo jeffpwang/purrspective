@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Purrspective</title>
+
+    <style>
+    body {background-image: url(http://www.animalkingdom.je/wp-content/uploads/2014/11/bigstock-blue-eyed-cat-head-499767381.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center bottom;
+    }
+    h1 {
+    text-align: center;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 300%;
+    }
+    h2  {
+    text-align: center;
+    color: black;
+    font-family: "calibri", Garamond, 'Comic Sans';
+    font-size: 160%;
+    }
+    </style>
+
+  </head>
+ 
+  <body>
+
+    <h1>Your Problem:</h1> 
+    <h2><%= "#{@user_problem}" %></h2> 
+
+    <h1>Cat Problem:</h1> 
+    <h2><%="#{@cat_fact}"%></h2> 
+
+  </body>
+</html>
